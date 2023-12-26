@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="./assets/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <!-- bootstrap cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- fontsawesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- googlefonts roboto fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- custom css responsive-style link  -->
+    <link rel="stylesheet" href="assets/css/responsive-style.css" />
+  </head>
+  <body>
+    <!-- _______________________header_______________________design_______________________ -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#explore-food"
+                  >Explore Foods</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#testimonial"
+                  >Review</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#newsletter"
+                  >Newsletter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#footer"
+                  >Footer</a
+                >
+              </li>
+              <li>
+                <button class="main-btn">+92310-8697290</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- _______________________section-1 top-banner_______________________design_______________________ -->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6 col-m-5">
+              <h1>Good food choices are good investments.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+                iure atque sunt facilis? Unde sint possimus pariatur!
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">
+                  Order Now <i class="fas fa-shopping-basket ps-3"></i>
+                </button>
+                <button class="white-btn ms-lg-4 mt-lg-0 mt-4">
+                  Order Now <i class="fas fa-angle-right ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-2 counter_______________________design_______________________ -->
+    <div id="counter">
+      <div class="counter-section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count1"></span>+</h2>
+              <p>SAVINGS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count2"></span>+</h2>
+              <p>PHOTOS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count3"></span>+</h2>
+              <p>ROCKETS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count4"></span>+</h2>
+              <p>GLOBES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- _______________________section-3 about_______________________design_______________________ -->
+    <section id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img
+                  src="assets/images/img/img-1.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                We pride ourselves on making real food from the best
+                ingredients.
+              </h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                eveniet eius magni mollitia accusamus eligendi illo molestias
+                facere ad quos ducimus ab iusto, vitae aliquid distinctio
+                repellat! Eos dicta aspernatur quas consequuntur itaque
+                molestiae, tenetur animi assumenda aut repudiandae.
+              </p>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+              <h2>
+                We make everything by hand with the best possible ingredients.
+              </h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea nam
+                voluptates perspiciatis amet iste culpa asperiores, ut totam
+                deserunt rerum architecto aliquid? Doloribus vero veniam rem
+                dicta neque perspiciatis amet iste culpa asperiores, ut totam
+                deserunt rerum architecto aliquid voluptatum enim.
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>Lorem ipsum dolor sit, amet consectetur .</li>
+                <li>ut totam deserunt rerumimn aliquid enim.</li>
+                <li>Doloribus vero veniam rem dicta neque .</li>
+              </ul>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img
+                  src="assets/images/img/img-2.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-3 story_______________________design_______________________ -->
+    <section id="story">
+      <div class="story-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-ms-12">
+              <div class="text-content">
+                <h2>
+                  When a man's stomach is full it makes no different whether he
+                  is rich or poor.
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                  illo similique ipsam sit nemo maxime quaerat blanditiis!
+                  Aperiam, assumenda veniam.
+                </p>
+                <button class="main-btn mt-3">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-4 explore food_______________________design_______________________ -->
+    <section id="explore-food">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our Foods</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Vitae necessitatibus ratione consequatur, impedit eos nemo
+                  earum cumque nihil veniam dolor odio esse eum omnis sapiente,
+                  quas eveniet quod iusto labore, eius at tempora. Optio
+                  provident nostrum ipsum eveniet! Officia, repellendus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="assets/images/img/img-3.jpg" alt="" />
+                <div class="pt-3">
+                  <h4>Rainbow Vegetable Sandwhich</h4>
+                  <p>Time:15 - 20 Minutes | Servies: 1</p>
+                  <span>$10.50 <del>$11.70</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="assets/images/img/img-4.jpg" alt="" />
+                <div class="pt-3">
+                  <h4>Vegetarian Burger</h4>
+                  <p>Time:30 - 45 Minutes | Servies: 2</p>
+                  <span>$09.20 <del>$10.90</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="assets/images/img/img-5.jpg" alt="" />
+                <div class="pt-3">
+                  <h4>Raspberry Stuffed French Toast</h4>
+                  <p>Time:10 - 15 Minutes | Servies: 3</p>
+                  <span>$14.10 <del>$160.30</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-5 testimonial_______________________design_______________________ -->
+    <div id="testimonial">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2>Testimonial</h2>
+            <div class="row">
+              <div class="col-sm-12 col-lg-10 offset-lg-1">
+                <div
+                  id="carouselExampleDark"
+                  class="carousel carousel-dark slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img
+                        src="assets/images/review/review-1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>
+                          "Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the
+                          blind texts."
+                        </p>
+                        <h5>Johnthan Doe - UX Designer</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="assets/images/review/review-2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>
+                          "Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the
+                          blind texts."
+                        </p>
+                        <h5>Maccy Doe - Frontend Developer</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/review/review-1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>
+                          "Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the
+                          blind texts."
+                        </p>
+                        <h5>Johnthan Doe - UX Designer</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                  >
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                  >
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- _______________________section-6 FAQ_______________________design_______________________ -->
+    <section id="faq">
+      <div class="faq wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center pb-4">
+                <h2>Frequently Asked Questions</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                "Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language."
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                "Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language."
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Do you bake breads containing animal fats of
+                products?
+              </h4>
+              <p>
+                "Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language."
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Can I order your products online?</h4>
+              <p>
+                "Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language."
+              </p>
+            </div>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Can I collaborate outside my organization? #1
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Collaborating with people outside your organization consists
+                  of these major components: Enable sharing - Configure the
+                  sharing controls across Microsoft Entra ID, Teams, Microsoft
+                  365 Groups, and SharePoint to allow the level of sharing that
+                  you want for your organization.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Do I need my credit card details to sign up for your
+                  accounting software? #2
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  I don't actually provide accounting software myself, but many
+                  accounting software platforms do require credit card details
+                  for signing up, especially for free trials or paid
+                  subscriptions. This information is typically used to verify
+                  your identity and set up payment if you choose to continue
+                  using the service after any trial period. However, there might
+                  be some platforms that offer free versions without needing
+                  credit card details upfront. If you're concerned about
+                  providing this information, it's a good idea to review the
+                  terms and conditions or reach out to customer support for more
+                  information before signing up.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Is my data secure when I use Wave? #3
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Wave, like many other reputable accounting software providers,
+                  takes various measures to secure users' data. They use
+                  encryption protocols to protect sensitive information during
+                  transmission and employ security measures to safeguard data
+                  stored on their servers. Additionally, they often comply with
+                  industry standards and regulations to ensure data security and
+                  privacy.
+                  <br />
+                  However, it's always a good practice to review the specific
+                  privacy and security policies of any software you use. These
+                  policies often detail how your data is handled, what security
+                  measures are in place, and whether any third parties have
+                  access to your information. You can find this information on
+                  the Wave website or by contacting their support team directly.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Do you provide customer support? #4
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  I'm here to help with information and advice! However, I'm not
+                  directly affiliated with any specific company or service, so I
+                  don't provide customer support for any particular product or
+                  platform. If you have questions or need assistance with a
+                  specific service, I can certainly try to offer guidance or
+                  information based on what I know up until my last update in
+                  January 2022. For direct customer support, it's best to reach
+                  out to the company or service provider through their official
+                  channels, such as their website, support email, or phone
+                  number.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Can I import my data from other accounting apps like
+                  Digiturnal ? #5
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  As of my last update in January 2022, Digiturnal isn't a
+                  widely known accounting software or service. However, many
+                  popular accounting software platforms do provide tools or
+                  options to import data from other accounting applications.
+                  <br />
+                  The availability of specific import features can vary based on
+                  the software you're considering. Generally, these platforms
+                  offer import functionalities for common file formats like CSV,
+                  XLS, or QIF to allow users to migrate their data from other
+                  accounting software systems.
+                  <br />
+                  If Digiturnal offers the ability to export your data into one
+                  of these standard formats, it might be possible to import that
+                  data into other accounting software that supports such
+                  imports. The feasibility and process might differ depending on
+                  the software you're considering switching to. It's a good idea
+                  to check the documentation or reach out to the customer
+                  support of the new accounting software you're interested in to
+                  see if they support imports from Digiturnal or can assist in
+                  the migration process.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  What’s the catch—how does Wave make money? #6
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Wave makes money primarily through its paid services and
+                  additional features. While the core accounting software is
+                  free, Wave offers optional paid services like payment
+                  processing, payroll, and premium support. These services often
+                  come with fees or transaction charges. For instance, Wave
+                  charges a small fee for payment processing when customers use
+                  their invoicing and payment features. Additionally, they may
+                  earn revenue through partnerships or integrations with
+                  third-party services.
+                  <br />
+                  Their model is based on providing a robust free accounting
+                  platform while monetizing certain add-on features that users
+                  may find beneficial for their businesses. This freemium model
+                  allows them to attract a broad user base with the free
+                  accounting tools and generate revenue from users who opt for
+                  their premium services or enhanced features.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  Is Company software something I need to install? #7
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  It depends on the specific company software you're referring
+                  to. Many modern software applications, including accounting
+                  software, offer both web-based and desktop versions.
+                  <br />
+                  Web-based or cloud-based software can be accessed directly
+                  through a web browser without requiring installation. Users
+                  can log in to their accounts from any device with an internet
+                  connection, making it convenient and accessible.
+                  <br />
+                  On the other hand, some software might offer a desktop version
+                  that needs to be installed on your computer. This installation
+                  often involves downloading and running an installer file.
+                  These desktop versions might offer certain advantages like
+                  offline access or more robust features in some cases.
+                  <br />
+                  Before choosing a software solution, it's worth checking
+                  whether it's web-based, desktop-based, or both. Web-based
+                  software generally doesn't require installation, while
+                  desktop-based software does need installation on your device.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEight"
+                >
+                  Do you provide customer support? #8
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  I'm here to offer guidance and information! While I can't
+                  directly access or troubleshoot specific accounts or systems,
+                  I can certainly assist with general advice, explanations, or
+                  directions to the best of my knowledge. If you need help with
+                  a particular service or product, I can try to provide
+                  information or tips based on what I know up until my last
+                  update in January 2022. For direct customer support related to
+                  a specific service or product, it's usually best to reach out
+                  to the company's official support channels.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseNine"
+                >
+                  Does Digiturnal’s accounting tool work with my bank? #9
+                </button>
+              </h2>
+              <div
+                id="flush-collapseNine"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Digiturnal isn't a widely recognized accounting software, and
+                  its specific integrations with banks or financial institutions
+                  aren't readily available or well-documented. Generally, the
+                  capability of any accounting tool to work with your bank
+                  depends on several factors:
+                  <br />
+                  Supported Banks: Some accounting software offers direct
+                  integrations with banks, allowing for seamless syncing of
+                  transactions. However, not all banks may be supported due to
+                  varying agreements between the software provider and financial
+                  institutions.
+                  <br />
+                  Import Options: Even if direct integration isn't available,
+                  most accounting software allows manual importing of bank
+                  statements in standard formats like CSV, OFX, or QIF. This
+                  allows you to upload your transactions into the accounting
+                  tool.
+
+                  <br />
+                  Given that Digiturnal might not have widespread recognition or
+                  documentation, it might be best to explore its official
+                  website or contact their support directly to inquire about
+                  specific bank integrations or import options. They should be
+                  able to provide details about supported banks or the process
+                  for importing transactions from your bank into their
+                  accounting tool.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-7 book-food_______________________design_______________________ -->
+    <section id="book-food">
+      <div class="book-food">
+        <div class="container book-food-text">
+          <div class="row text-center">
+            <div class="col-lg-9 col-md-12">
+              <h2>Baked fresh daily by bakers with passion.</h2>
+            </div>
+            <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+              <button class="main-btn">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _______________________section-8 newslattar_______________________design_______________________ -->
+    <div id="newsletter">
+      <div class="newsletter wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="sol-sm-12">
+              <div class="text-content text-center pb-4">
+                <h2>Hurry up! Subscribe our newslattar and get 25% off</h2>
+                <p>
+                  Limited time offer for this month. No credit card required.
+                </p>
+              </div>
+              <form
+                action="
+              "
+                class="newsletter"
+              >
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email Address here "
+                      name="email "
+                    />
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <button class="main-btn" type="submit">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- _______________________section-9 footer_______________________design_______________________ -->
+    <div id="footer">
+      <div class="footer py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="footer-social pt-4 text-center">
+                <a
+                  href="https://web.facebook.com/profile.php?id=61552752110151"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://twitter.com/iamatifali7" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/atif-ali-b13a04283/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/iamatifaliarshad/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="https://github.com/Atifkhan7" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@atifaliatifali86"
+                  target="_blank"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+                <a href="https://www.pinterest.com/iam0vn5lo1r/" target="_blank"
+                  ><i class="fa-brands fa-pinterest"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="footer-copy">
+                <div class="copy-right text-center pt-5">
+                  <p class="text-align light">Made by Atif Ali | 12/24/2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- js libraries cdn link  -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js link  -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
